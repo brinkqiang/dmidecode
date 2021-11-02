@@ -18,7 +18,7 @@ MESSAGE(STATUS "VERSION: ${DMIDECODE_VERSION}")
 OPTION(USE_DMIDECODE "use dmidecode" OFF)
 
 LibImport("libdmidecode" "src/libdmidecode")
-ExeImport("test" "libdmidecode")
+ExeImport("tools" "libdmidecode")
 
 #ADD_CUSTOM_COMMAND(
 #TARGET dmidecodetest
